@@ -1,0 +1,13 @@
+﻿Field name,OO Type,SQL Data Type,Allow Nulls,Primary Key
+id,int,int,no,yes
+first_name,string,nvarchar,no,no
+last_name,string,nvarchar,no,no
+email_address,string,nvarchar,no,no
+telephone,string,varchar(100),no,no
+date_of_birth,date,date,no,no
+username,string,varchar(100),no,no
+password_hash,string,nvarchar,no,no
+date_added,datetime,datetime,no,no
+date_last_modified,datetime,datetime,no,no
+failed_login_attempts,int,int,no,no
+is_deleted,Boolean,bit,no,no

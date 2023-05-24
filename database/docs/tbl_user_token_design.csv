@@ -1,0 +1,5 @@
+﻿Field name,OO Type,SQL Data Type,Allow Nulls,Primary Key
+id,int,int,no,yes
+user_id,int,int,no,FK
+token,string,uniqueidentifier,no,no
+expiry_date,datetime,datetime,no,no
