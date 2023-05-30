@@ -1,0 +1,11 @@
+﻿Field name,OO Type,SQL Data Type,Allow Nulls,Primary Key
+id,int,int,no,yes
+user_id,int,int,no,FK ref User
+house_name_number,string,nvarchar,no,no
+street,string,nvarchar,no,no
+address_line_2,string,nvarchar,yes,no
+address_line_3,string,nvarchar,yes,no
+city,string,nvarchar,no,no
+postcode,string,nvarchar,no,no
+country,string,nvarchar,no,no
+is_business,boolean,bit,no,no
