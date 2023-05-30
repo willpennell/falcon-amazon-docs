@@ -5,15 +5,15 @@ CREATE TABLE tbl_users
     id INT NOT NULL IDENTITY PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
     password_hash NVARCHAR(MAX) NOT NULL,
-	first_name VARCHAR(50) NOT NULL,
-	last_name VARCHAR(100) NOT NULL,
+	forenames VARCHAR(50) NOT NULL,
+	surname VARCHAR(100) NOT NULL,
 	email_address VARCHAR(200) UNIQUE NOT NULL,
 	telephone VARCHAR(15) UNIQUE NOT NULL,
-	date_of_birth DATETIME NOT NULL,
+	date_of_birth DATE NOT NULL,
     date_added DATETIME NOT NULL,
     date_last_modified DATETIME NOT NULL,
 	failed_login_attempts INT NOT NULL,
-    is_deleted BIT NOT NULL,
+    deleted BIT NOT NULL,
 
 );
 
