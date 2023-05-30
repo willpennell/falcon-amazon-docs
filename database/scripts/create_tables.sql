@@ -4,7 +4,7 @@ CREATE TABLE tbl_users
 (
     id INT NOT NULL IDENTITY PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
-    password NVARCHAR(MAX) NOT NULL,
+    password_hash NVARCHAR(MAX) NOT NULL,
 	forenames VARCHAR(50) NOT NULL,
 	surname VARCHAR(100) NOT NULL,
 	email_address VARCHAR(200) UNIQUE NOT NULL,
