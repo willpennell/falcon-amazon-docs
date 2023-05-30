@@ -8,4 +8,4 @@ address_line_3,string,nvarchar,yes,no
 city,string,nvarchar,no,no
 postcode,string,nvarchar,no,no
 country,string,nvarchar,no,no
-is_business,boolean,bit,no,no
+business,boolean,bit,no,no
